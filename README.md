@@ -10,7 +10,7 @@ This section describes how to build the firmware for I2CD from source codes.
 
 The following operations are performed under an Ubuntu LTS 14.04.4 environment. For a Windows or a Mac OS X host computer, you can install a VM for having the same environment:
 * Download Ubuntu 14.04.4 LTS image from [http://www.ubuntu.com](http://www.ubuntu.com)
-* Install this image with VirtualBox (http://virtualbox.org) on the host machine. 50GB disk space reserved for the VM is recommanded
+* Install this image with VirtualBox (http://virtualbox.org) on the host machine. 50GB disk space reserved for the VM is recommended
 
 
 ### Steps
@@ -23,7 +23,7 @@ In the Ubuntu system, open the *Terminal* application and type the following com
     sudo apt-get install git g++ make libncurses5-dev subversion libssl-dev gawk libxml-parser-perl unzip wget python xz-utils
     ```
 
-2. Download OpenWrt source codes:
+2. Download OpenWrt source code:
 
     ```
     git clone git@github.com:FloTechnologies/icd-openwrt.git
